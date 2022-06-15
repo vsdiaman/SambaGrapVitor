@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="219" height="54" viewBox="0 0 219 54">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="0.5" x2="0.5" y2="0.997" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fab52b"/>
+      <stop offset="1" stop-color="#fd8e0b"/>
+    </linearGradient>
+  </defs>
+  <g id="Logo" transform="translate(219.187 53.614) rotate(180)">
+    <rect id="Background_Logo" data-name="Background Logo" width="219" height="54" rx="8" transform="translate(0.187 -0.386)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="139" height="34" viewBox="0 0 139 34">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="0.5" x2="0.5" y2="0.997" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fab52b"/>
+      <stop offset="1" stop-color="#fd8e0b"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_5" data-name="Group 5" transform="translate(-821 -34)">
+    <g id="Logo" transform="translate(960.308 68) rotate(180)">
+      <rect id="Background_Logo" data-name="Background Logo" width="139" height="34" rx="8" transform="translate(0.308 0)" fill="url(#linear-gradient)"/>
+    </g>
+    <text id="Home_Movies_Series_R" data-name="Home Movies Series R" transform="translate(893 57)" font-size="18" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-44" y="0">Criar conta</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="263" height="78.5" viewBox="0 0 263 78.5">
+  <g id="Group_42" data-name="Group 42" transform="translate(-824.5 -3285)">
+    <g id="Search" transform="translate(825.123 3319)">
+      <g id="Background_Search_Shadow" data-name="Background Search Shadow" transform="translate(-0.123)">
+        <rect id="Background_Search" data-name="Background Search" width="262" height="44" rx="6" fill="#17161b" stroke="#fab52b" stroke-width="1"/>
+      </g>
+    </g>
+    <g id="Group_41" data-name="Group 41" transform="translate(0 75)">
+      <text id="Assine_a_nossa_Newsletter" data-name="Assine a nossa Newsletter" transform="translate(825 3225)" fill="#fff" font-size="16" font-family="FiraSans-Medium, Fira Sans" font-weight="500"><tspan x="0" y="0">Assine a nossa Newsletter</tspan></text>
+    </g>
+    <path id="Icon_material-send" data-name="Icon material-send" d="M3.009,20.26l18.378-7.88L3.009,4.5,3,10.629,16.134,12.38,3,14.131Z" transform="translate(1054.5 3328.62)" fill="#fab52b"/>
+  </g>
+</svg>
