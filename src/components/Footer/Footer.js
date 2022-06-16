@@ -1,5 +1,9 @@
 import React from "react";
 import "./styles.css";
+import Group1 from "../../images/Group1.png";
+import { FaTwitter } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaFacebookSquare } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -7,6 +11,9 @@ function Footer() {
       <div className="footer-middle">
         <div className="container">
           <div>
+            <div class="footer-logo">
+              <img src={Group1} alt="logo" />
+            </div>
             {/* Column 1 */}
             <div>
               <ul className="list-unstyled">
@@ -20,32 +27,47 @@ function Footer() {
                 <li>Enviar HQ</li>
               </ul>
             </div>
+            <div>
+              <ul className="footer-title">
+                <li>Siga-nos nas redes sociais</li>
+              </ul>
+              <div>
+                <ul className="list-midias">
+                  <li>
+                    <a
+                      id="twitter"
+                      href="https://twitter.com/VitorDiamantin3"
+                      size={16}
+                      color="#fff"
+                    >
+                      <FaTwitter />
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      id="instagram"
+                      href="https://www.instagram.com/vitor.diamantino/"
+                      size={16}
+                      color="#fff"
+                    >
+                      <FaInstagram />
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      id="facebook"
+                      href="https://www.facebook.com/vitor.diamantino"
+                      size={16}
+                      color="#fff"
+                    >
+                      <FaFacebookSquare />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
             {/* Column 2 */}
             <div>
-              <h4>Siga-nos nas redes sociais</h4>
-              <ul className="list-midias">
-                <li>
-                  <a id="twitter" href="https://twitter.com/VitorDiamantin3">
-                    Twiter
-                  </a>
-                </li>
-                <li>
-                  <a
-                    id="instagram"
-                    href="https://www.instagram.com/vitor.diamantino/"
-                  >
-                    Instagram
-                  </a>
-                </li>
-                <li>
-                  <a
-                    id="facebook"
-                    href="https://www.facebook.com/vitor.diamantino"
-                  >
-                    facebook
-                  </a>
-                </li>
-              </ul>
               <div className="newsletter">
                 <input class="input-newsletter" type="search" />
               </div>

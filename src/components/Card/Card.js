@@ -103,7 +103,6 @@ function Card() {
                 <h3 class="card-categorias">Categorias</h3>
                 <i class="card-ponto">s</i>
               </div>
-              <div></div>
             </div>
             <div class="card-info">
               <h2 class="card-title">Loren ipsum. </h2>
