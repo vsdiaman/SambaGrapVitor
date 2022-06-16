@@ -4,6 +4,7 @@ import Rectangle3 from "../../images/Rectangle3.png";
 import { TbMessage } from "react-icons/tb";
 import { CgAddR } from "react-icons/cg";
 import { CgCloseO } from "react-icons/cg";
+// import { CgCloseO } from "react-icons/cg";
 
 function Card() {
   return (
