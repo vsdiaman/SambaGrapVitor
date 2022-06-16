@@ -13,7 +13,217 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+.card {
+  /* background-color: aliceblue; */
+  /* border: 2px solid red; */
+  /*largura */
+  max-width: 100%;
+  height: 2548px; /*altura */
+}
+
+.card {
+  display: flex;
+  /*alinhamento horizontal */
+  justify-content: space-around; /*Exiba os itens flexíveis com espaço antes, entre e depois das linhas: */
+  /*alinhamento vertical */
+  align-items: center;
+  /*quando a area maxima for atingida na linha ele joga pra segunda linha */
+  flex-wrap: wrap;
+}
+
 .title-card {
+  padding: 1rem;
+  color: #fab52b;
+  font-size: 30px;
+}
+
+.item {
+  background-color: #252526;
+  /* border: 2px solid blue; */
+  height: 997px; /*altura */
+  width: 561px; /*largura */
+  margin-bottom: 124px;
+  border-radius: 1%;
+}
+
+.item #card-img {
+  display: block;
+  height: 338px; /*altura */
+  width: 513px; /*largura */
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-top: 28px;
+}
+
+.card-title {
+  color: #ffffff;
+  font-size: 30px;
+  font-family: roboto;
+  align-items: flex-start;
+  margin-left: 24px;
+}
+
+.card-autor {
+  color: #ffffff;
+  font-size: 22px;
+  font-family: roboto;
+  align-items: flex-start;
+  margin-left: 24px;
+}
+
+.card-descricao {
+  color: #ffffff;
+  font-size: 28px;
+  font-family: roboto;
+  opacity: 0.8;
+  align-items: flex-start;
+  margin-left: 24px;
+  margin-top: 50px;
+}
+
+.card-button {
+  background: transparent url("../../images/Logo.svg");
+  border: none;
+  border-radius: 1%;
+  width: 219px;
+  height: 54px;
+  border-radius: 1rem;
+  align-items: flex-start;
+  margin-left: 24px;
+  margin-top: 36px;
+  font-size: 28px;
+  color: #000000;
+  font-family: roboto;
+  cursor: pointer;
+}
+
+.card-button:hover {
+  opacity: 0.8;
+  border: solid 1px;
+}
+
+.card-price {
+  color: #fab52b;
+  font-size: 28px;
+  font-family: roboto bold;
+  width: 96px;
+  /* height: 37px; */
+  margin-left: 441px;
+  margin-top: -50px;
+}
+
+.rating {
+}
+
+.card-rating {
+  color: #f7a707;
+  margin-top: 30px;
+  margin-left: 24px;
+  width: 29px;
+  height: 27px;
+  background: transparent url("../../images/Icon ionic-md-star.svg") 0% 0%
+    no-repeat padding-box;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.card-rating:hover {
+  opacity: 1;
+  transform: scale(1.2, 1.2);
+}
+
+.card-nota {
+  font-family: roboto;
+  font-size: 25px;
+  color: #ffffff;
+  margin-top: -30px;
+  margin-left: 64px;
+  opacity: 0.8;
+}
+
+.card-categorias {
+  margin-left: 435px;
+  color: #ffffff;
+  font-family: roboto;
+  font-size: 20px;
+  margin-top: -40px;
+}
+
+.card-ponto {
+  display: block;
+  background: transparent url("../../images/Ellipse 1.svg") 0% 0% no-repeat
+    padding-box;
+  margin-left: 418px;
+  margin-top: -20px;
+  margin-bottom: 30px;
+}
+
+.card-info {
+  margin-bottom: 7px;
+}
+
+.card-add {
+  border: none;
+  margin-left: 440px;
+  margin-top: -30px;
+  /* margin-top: -20px; */
+  /* margin-bottom: 30px; */
+  background: transparent url("../../images/Icon material-add-box.svg") 0% 0%
+    no-repeat padding-box;
+  opacity: 1;
+}
+
+.card-close {
+  border: none;
+  margin-left: 490px;
+  margin-top: -25px;
+  background: transparent
+    url("../../images/Icon ionic-md-close-circle-outline.svg") 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+}
+
+.card-informacao {
+  display: block;
+  margin-top: 10px;
+  width: 12px;
+  height: 27px;
+}
+
+.card-data {
+  margin-top: 30px;
+  color: #ffffff;
+  opacity: 0.8;
+  font-size: 20px;
+  margin-left: 24px;
+}
+
+.card-comentarios {
+  margin-top: -30px;
+  color: #ffffff;
+  opacity: 0.8;
+  font-size: 20px;
+  margin-left: 142px;
+  background: transparent url("../../images/Icon material-comment.svg") 0% 0%
+    no-repeat padding-box;
+}
+
+.card-idade {
+  margin-top: -30px;
+  margin-left: 242px;
+  background: #fa251b;
+  border: solid 1px white;
+  border-radius: 2px 2px 2px 2px;
+  width: 24px;
+  height: 24px;
+  opacity: 1;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+}
+
+/* .title-card {
   color: #fab52b;
   font-size: 30px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -24,9 +234,9 @@ body {
   height: 39px;
   opacity: 1;
   align-self: start;
-}
+} */
 
-.wrapper {
+/* .wrapper {
   display: grid;
   top: 412px;
   left: 110px;
@@ -35,20 +245,20 @@ body {
   gap: 1rem;
   justify-content: center;
   margin: 1rem;
-}
+} */
 
-.card {
+/* .card {
   overflow: hidden;
-  /* box-shadow: 0 2px 20px; */
+  box-shadow: 0 2px 20px;  apagar
   border-radius: 2%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   cursor: pointer;
   background-color: #252526;
-}
+} */
 
-#card-img {
+/* #card-img {
   border: red;
   height: 12rem;
   width: 100%;
@@ -58,9 +268,9 @@ body {
   right: 10rem;
   width: 513px;
   height: 338px;
-}
+} */
 
-.card-body .card-img {
+/* .card-body .card-img {
   height: 12rem;
   width: 100%;
   object-fit: cover;
@@ -69,18 +279,18 @@ body {
   right: 10rem;
   width: 513px;
   height: 338px;
-}
-
+} */
+/* 
 .card-title {
   padding: 1rem;
   color: #ffffff;
-}
+} */
 
-.card-descricao {
+/* .card-descricao {
   padding: 0 1rem;
   color: #ffffff;
-}
-
+} */
+/* 
 .card .card-button {
   padding: 1rem;
   font-family: inherit;
@@ -90,7 +300,8 @@ body {
   background: transparent;
   color: rgb(5, 4, 4);
   border-radius: 1%;
-  /* transition: background 200ms ease-in, color 200ms ease-in; */
-  /* background: transparent url("../../images/Home Movies Series R.svg") 0% 0% */
-  /* no-repeat padding-box; */
-}
+
+  transition: background 200ms ease-in, color 200ms ease-in;
+  background: transparent url("../../images/Home Movies Series R.svg") 0% 0%
+  no-repeat padding-box;
+} */

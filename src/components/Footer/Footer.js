@@ -6,9 +6,9 @@ function Footer() {
     <div className="footer">
       <div className="footer-middle">
         <div className="container">
-          <div className="row">
+          <div>
             {/* Column 1 */}
-            <div className="col-md-3 col-sm-6">
+            <div>
               <ul className="list-unstyled">
                 <li>Home</li>
                 <li>Gêneros</li>
@@ -21,9 +21,9 @@ function Footer() {
               </ul>
             </div>
             {/* Column 2 */}
-            <div className="col-md-3 col-sm-6">
-              <h4 id="h4-2">Siga-nos nas redes sociais</h4>
-              <ul className="list-unstyled">
+            <div>
+              <h4>Siga-nos nas redes sociais</h4>
+              <ul className="list-midias">
                 <li>
                   <a id="twitter" href="https://twitter.com/VitorDiamantin3">
                     Twiter
@@ -51,9 +51,9 @@ function Footer() {
               </div>
             </div>
             {/* Column 3 */}
-            <div className="col-md-3 col-sm-6">
-              <h4 id="h4-3">Baixe o App</h4>
-              <ul className="list-unstyled">
+            <div>
+              <h4>Baixe o App</h4>
+              <ul className="list-app">
                 <li>
                   <a href="/">App store</a>
                 </li>
