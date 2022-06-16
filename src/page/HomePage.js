@@ -8,9 +8,6 @@ function HomePage() {
     <div>
       <Nav />
       <div class="wrapper">
-        <div class="title-card">
-          <h1>LANÇAMENTOS</h1>
-        </div>
         <Card />
       </div>
       <Footer />
