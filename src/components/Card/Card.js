@@ -1,6 +1,9 @@
 import React from "react";
 import "./styles.css";
 import Rectangle3 from "../../images/Rectangle3.png";
+import { TbMessage } from "react-icons/tb";
+import { CgAddR } from "react-icons/cg";
+import { CgCloseO } from "react-icons/cg";
 
 function Card() {
   return (
@@ -16,14 +19,18 @@ function Card() {
               {/* <input class="card-rating" type="radio" name="rating" /> */}
               <h3 class="card-nota">4,5</h3>
               <h3 class="card-categorias">Categorias</h3>
-              <i class="card-ponto">s</i>
+              <i class="card-ponto">.</i>
             </div>
             <div></div>
           </div>
           <div class="card-info">
             <h2 class="card-title">Loren ipsum. </h2>
-            <div class="card-add">.</div>
-            <div class="card-close">.</div>
+            <div class="card-add" style={{ color: "#f7a707" }}>
+              <CgAddR size={30} />
+            </div>
+            <div class="card-close" style={{ color: "white" }}>
+              <CgCloseO CgAddR size={30} />
+            </div>
           </div>
           <div>
             <h4 class="card-autor">Nome do autor. </h4>
@@ -37,7 +44,11 @@ function Card() {
           </div>
           <div class="card-informacao">
             <h5 class="card-data">2022</h5>
-            <h5 class="card-comentarios">6</h5>
+            <h5 class="card-comentarios">
+              <div class="icon-message" style={{ color: "#f7a707" }}>
+                <TbMessage size={30} />
+              </div>
+            </h5>
             <h5 class="card-idade">16</h5>
           </div>
           <div>
@@ -58,14 +69,18 @@ function Card() {
                 {/* <input class="card-rating" type="radio" name="rating" /> */}
                 <h3 class="card-nota">4,5</h3>
                 <h3 class="card-categorias">Categorias</h3>
-                <i class="card-ponto">s</i>
+                <i class="card-ponto">.</i>
               </div>
               <div></div>
             </div>
             <div class="card-info">
               <h2 class="card-title">Loren ipsum. </h2>
-              <div class="card-add">.</div>
-              <div class="card-close">.</div>
+              <div class="card-add" style={{ color: "#f7a707" }}>
+                <CgAddR size={30} />
+              </div>
+              <div class="card-close" style={{ color: "white" }}>
+                <CgCloseO CgAddR size={30} />
+              </div>
             </div>
             <div>
               <h4 class="card-autor">Nome do autor. </h4>
@@ -79,7 +94,11 @@ function Card() {
             </div>
             <div class="card-informacao">
               <h5 class="card-data">2022</h5>
-              <h5 class="card-comentarios">6</h5>
+              <h5 class="card-comentarios">
+                <div class="icon-message" style={{ color: "#f7a707" }}>
+                  <TbMessage size={30} />
+                </div>
+              </h5>
               <h5 class="card-idade">16</h5>
             </div>
             <div>
@@ -101,13 +120,17 @@ function Card() {
                 {/* <input class="card-rating" type="radio" name="rating" /> */}
                 <h3 class="card-nota">4,5</h3>
                 <h3 class="card-categorias">Categorias</h3>
-                <i class="card-ponto">s</i>
+                <i class="card-ponto">.</i>
               </div>
             </div>
             <div class="card-info">
               <h2 class="card-title">Loren ipsum. </h2>
-              <div class="card-add">.</div>
-              <div class="card-close">.</div>
+              <div class="card-add" style={{ color: "#f7a707" }}>
+                <CgAddR size={30} />
+              </div>
+              <div class="card-close" style={{ color: "white" }}>
+                <CgCloseO CgAddR size={30} />
+              </div>
             </div>
             <div>
               <h4 class="card-autor">Nome do autor. </h4>
@@ -121,7 +144,11 @@ function Card() {
             </div>
             <div class="card-informacao">
               <h5 class="card-data">2022</h5>
-              <h5 class="card-comentarios">6</h5>
+              <h5 class="card-comentarios">
+                <div class="icon-message" style={{ color: "#f7a707" }}>
+                  <TbMessage size={30} />
+                </div>
+              </h5>
               <h5 class="card-idade">16</h5>
             </div>
             <div>
@@ -143,14 +170,18 @@ function Card() {
                 {/* <input class="card-rating" type="radio" name="rating" /> */}
                 <h3 class="card-nota">4,5</h3>
                 <h3 class="card-categorias">Categorias</h3>
-                <i class="card-ponto">s</i>
+                <i class="card-ponto">.</i>
               </div>
               <div></div>
             </div>
             <div class="card-info">
               <h2 class="card-title">Loren ipsum. </h2>
-              <div class="card-add">.</div>
-              <div class="card-close">.</div>
+              <div class="card-add" style={{ color: "#f7a707" }}>
+                <CgAddR size={30} />
+              </div>
+              <div class="card-close" style={{ color: "white" }}>
+                <CgCloseO CgAddR size={30} />
+              </div>
             </div>
             <div>
               <h4 class="card-autor">Nome do autor. </h4>
@@ -164,7 +195,11 @@ function Card() {
             </div>
             <div class="card-informacao">
               <h5 class="card-data">2022</h5>
-              <h5 class="card-comentarios">6</h5>
+              <h5 class="card-comentarios">
+                <div class="icon-message" style={{ color: "#f7a707" }}>
+                  <TbMessage size={30} />
+                </div>
+              </h5>
               <h5 class="card-idade">16</h5>
             </div>
             <div>
@@ -186,14 +221,18 @@ function Card() {
                 {/* <input class="card-rating" type="radio" name="rating" /> */}
                 <h3 class="card-nota">4,5</h3>
                 <h3 class="card-categorias">Categorias</h3>
-                <i class="card-ponto">s</i>
+                <i class="card-ponto">.</i>
               </div>
               <div></div>
             </div>
             <div class="card-info">
               <h2 class="card-title">Loren ipsum. </h2>
-              <div class="card-add">.</div>
-              <div class="card-close">.</div>
+              <div class="card-add" style={{ color: "#f7a707" }}>
+                <CgAddR size={30} />
+              </div>
+              <div class="card-close" style={{ color: "white" }}>
+                <CgCloseO CgAddR size={30} />
+              </div>
             </div>
             <div>
               <h4 class="card-autor">Nome do autor. </h4>
@@ -207,7 +246,11 @@ function Card() {
             </div>
             <div class="card-informacao">
               <h5 class="card-data">2022</h5>
-              <h5 class="card-comentarios">6</h5>
+              <h5 class="card-comentarios">
+                <div class="icon-message" style={{ color: "#f7a707" }}>
+                  <TbMessage size={30} />
+                </div>
+              </h5>
               <h5 class="card-idade">16</h5>
             </div>
             <div>
@@ -229,14 +272,18 @@ function Card() {
                 {/* <input class="card-rating" type="radio" name="rating" /> */}
                 <h3 class="card-nota">4,5</h3>
                 <h3 class="card-categorias">Categorias</h3>
-                <i class="card-ponto">s</i>
+                <i class="card-ponto">.</i>
               </div>
               <div></div>
             </div>
             <div class="card-info">
               <h2 class="card-title">Loren ipsum. </h2>
-              <div class="card-add">.</div>
-              <div class="card-close">.</div>
+              <div class="card-add" style={{ color: "#f7a707" }}>
+                <CgAddR size={30} />
+              </div>
+              <div class="card-close" style={{ color: "white" }}>
+                <CgCloseO CgAddR size={30} />
+              </div>
             </div>
             <div>
               <h4 class="card-autor">Nome do autor. </h4>
@@ -250,7 +297,11 @@ function Card() {
             </div>
             <div class="card-informacao">
               <h5 class="card-data">2022</h5>
-              <h5 class="card-comentarios">6</h5>
+              <h5 class="card-comentarios">
+                <div class="icon-message" style={{ color: "#f7a707" }}>
+                  <TbMessage size={30} />
+                </div>
+              </h5>
               <h5 class="card-idade">16</h5>
             </div>
             <div>

@@ -112,7 +112,11 @@ body {
   margin-top: -50px;
 }
 
-.rating {
+.icon-message {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
 }
 
 .card-rating {
@@ -163,23 +167,16 @@ body {
 }
 
 .card-add {
-  border: none;
   margin-left: 440px;
   margin-top: -30px;
-  /* margin-top: -20px; */
-  /* margin-bottom: 30px; */
-  background: transparent url("../../images/Icon material-add-box.svg") 0% 0%
-    no-repeat padding-box;
+  cursor: pointer;
   opacity: 1;
 }
 
 .card-close {
-  border: none;
   margin-left: 490px;
-  margin-top: -25px;
-  background: transparent
-    url("../../images/Icon ionic-md-close-circle-outline.svg") 0% 0% no-repeat
-    padding-box;
+  margin-top: -37px;
+  cursor: pointer;
   opacity: 1;
 }
 
@@ -200,7 +197,6 @@ body {
 
 .card-comentarios {
   margin-top: -30px;
-  color: #ffffff;
   opacity: 0.8;
   font-size: 20px;
   margin-left: 142px;
